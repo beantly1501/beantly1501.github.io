@@ -1,0 +1,23 @@
+header div {
+	font-family: 'Nova Flat';
+	font-size: 30px;
+    display: inline-block;
+	font-size: x-large;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+header {
+	background-color: grey;
+    text-align: center;
+}
+body {
+	margin: 0;
+}
+
+main {
+	background-color: rgb(177, 177, 177);
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}

@@ -6,23 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
-    <title>My Website</title>
+	<script src="script.js"></script>
+    <title>Homepage</title>
 </head>
 <body>
 	<header>
-        <div class="header-element">HOME</div>
-		<div class="header-element">SOCIALS</div>
-		<div class="header-element">ABOUT</div>
+        <div class="header-element unselectable"><a href="index.html">HOME</a></div>
+		<div class="header-element unselectable" onclick="redirect('socials.html')"><p>SOCIALS</p></div>
+		<div class="header-element unselectable"><p>ABOUT</p></div>
     </header>
 	<main>
 		<div class="div-main-gsw main-div">
 			<img class="gsw-image main-image" src="pictures/gsw.jpg" alt="gsw">
+			<p class="gsw-text main-div-text unselectable">BASKETBALL</p>
 		</div>
 		<div class="div-main-valorant main-div">
-			<img class="valorant-image main-image" src="pictures/valorant.png" alt="valorant">
+			<img class="gsw-image main-image" src="pictures/valorant.png" alt="gsw">
+			<p class="valorant-text main-div-text unselectable">VALORANT</p>
 		</div>
 		<div class="div-main-anime main-div">
-			<img class="anime-image main-image" src="pictures/anime.jpg" alt="anime">
+			<img class="gsw-image main-image" src="pictures/anime.jpg" alt="gsw">
+			<p class="anime-text main-div-text unselectable">ANIME</p>
 		</div>
 	</main>
 </body>

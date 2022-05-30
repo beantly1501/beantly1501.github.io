@@ -91,18 +91,47 @@ form {
 
 .text-element {
 	font-family: 'Nova Flat';
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .column-headers {
 	display: grid;
 	text-align: center;
-	grid-template-columns: 1.7fr 1.2fr;
+	grid-template-columns: 1.7fr 1.2fr 1fr;
 }
+
 
 .hidden {
 	display: none;
 }
+
+.table-el {
+	display: grid;
+	grid-template-columns: 1.7fr 1.2fr 1fr;
+	text-align: center;
+}
+
+.table-el h3 {
+	display: inline;
+}
+
+.table-elements {
+	background-color: grey;
+}
+
+
+.delete-entry {
+	font-family: 'Nova Flat';
+	font-size: 22px;
+	background-color: rgb(192, 192, 192);
+	border-color: #4a4a4a;
+	border-radius: 10px;
+	margin-top: 12px;
+	height: 50px;
+	margin-left: 86px;
+	width: 150px;
+}
+
 
 .button {
 	background-color: rgb(192, 192, 192);

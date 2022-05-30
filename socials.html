@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="socials.css">
 	<link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
 	<script src="script.js"></script>
     <title>Socials</title>
 </head>
 <body>
     <header>
-        <div class="header-element unselectable" onclick="redirect('index.html')"><p>HOME</p></div>
-		<div class="header-element unselectable" onclick="redirect('socials.html')"><p>SOCIALS</p></div>
-		<div class="header-element unselectable"><p>ABOUT</p></div>
+        <div class="header-element unselectable"><a class="header-a" href="index.html">HOME</a></div>
+		<div class="header-element unselectable"><a class="header-a" href="socials.html">SOCIALS</a></div>
+		<div class="header-element unselectable"><a class="header-a" href="about.html">ABOUT</a></div>
     </header>
+    <main>
+        <div class="main-social instagram">
+            <img class="logo ig-logo" src="pictures/instagram_logo.svg" alt="ig-logo">
+            <a class="social-button instagram-button" href="https://www.instagram.com">Instagram</a>
+        </div>
+        <div class="main-social linkedin">
+            <img class="logo linkedin-logo" src="pictures/linkedin_logo.png" alt="linkedin-logo">
+            <a class="social-button linkedin-button" href="https://www.linkedin.com">LinkedIn</a>
+        </div>
+        <div class="main-social twitter">
+            <img class="logo twitter-logo" src="pictures/twitter_logo.svg" alt="twitter-logo">
+            <a class="social-button twitter-button" href="https://twitter.com">Twitter</a>
+        </div>
+    </main>
 </body>
 </html>

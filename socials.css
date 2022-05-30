@@ -1,0 +1,66 @@
+header div {
+	font-family: 'Nova Flat';
+	font-size: 30px;
+    display: inline-block;
+	font-size: x-large;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+header div p {
+	border-radius: 15px;
+	margin: 0;
+	padding: 15px;
+	background-color: rgb(105, 105, 105);
+}
+header div p:hover {
+	background-color: rgb(168, 167, 167);
+}
+header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(17, 17, 17);
+    text-align: center;
+}
+div .header-a{
+	background-color: grey;
+	border-radius: 10px;
+	padding: 10px;
+}
+div a, div a:visited {
+	color: black;
+}
+a {
+	text-decoration: none;
+}
+body {
+    margin: 0;
+}
+main {
+    background-color: grey;
+    text-align: center;
+}
+
+main div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main a {
+    padding: 8px;
+	font-family: 'Nova Flat';
+	font-size: 65px;
+}
+main div .logo {
+	width: 50px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

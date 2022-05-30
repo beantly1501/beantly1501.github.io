@@ -22,6 +22,9 @@ function newInput()
         }
         newInputVisible = false;       
     }
+
+    var form = document.getElementsByClassName("input-fields")[0];
+    document.getElementsByTagName("input")[0].focus();
 }
 
 function checkIfExists(inputFields)
@@ -46,6 +49,7 @@ function deleteEntry(id)
     var table = document.getElementsByClassName("table-elements")[0];
     var tableElement = table.getElementsByClassName("table-el")[id];
     tableElement.remove();
+    counter--;
 }
 
 function processSubmit()

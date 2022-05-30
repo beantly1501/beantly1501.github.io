@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/cinephile.css">
+	<link href='https://fonts.googleapis.com/css?family=Nova Flat' rel='stylesheet'>
+	<script src="scripts/cinephile.js"></script>
+    <title>Homepage</title>
+</head>
+<body>
+	<header>
+        <div class="header-element"><a href="index.html">HOME</a></div>
+		<div class="header-element"><a href="socials.html">SOCIALS</a></div>
+		<div class="header-element"><a href="about.html">ABOUT</a></div>
+		<div class="header-element"><a href="cinephile.html">CINEPHILE</a></div>
+    </header>
+    <main>
+        <div class="new-input"> 
+                <form class="input-fields" action="#">
+                    <span>
+                        <button type="button" class="button-new-input button" onclick="newInput()">NEW INPUT</button> 
+                    </span>
+                    <span class="hidden">
+                        <label>MOVIE NAME:</label><br>
+                        <input class="input-element" type="text" name="movie-name">
+                    </span>
+                    <span class="hidden">
+                        <label>GRADE:</label><br>
+                        <select class="input-element" name="grade">
+                            <option value="1">1</option>
+                            <option value="1+">1+</option>
+                            <option value="2">2</option>
+                            <option value="2+">2+</option>
+                            <option value="3">3</option>
+                            <option value="3+">3+</option>
+                            <option value="4">4</option>
+                            <option value="4+">4+</option>
+                            <option value="5">5</option>
+                            <option value="5+">5+</option>
+                            <option value="6">6</option>
+                            <option value="6+">6+</option>
+                            <option value="7">7</option>
+                            <option value="7+">7+</option>
+                            <option value="8">8</option>
+                            <option value="8+">8+</option>
+                            <option value="9">9</option>
+                            <option value="9+">9+</option>
+                            <option value="10">10</option>
+                        </select>
+                    </span> 
+                    <span class="hidden">
+                        <button type="button" class="button" onclick="processSubmit()">SUBMIT</button>
+                    </span>
+                </form>          
+        </div>
+        <hr>
+        <div class="column-headers">
+            <h3 class="column-header-text text-element">MOVIE NAME:</h3>
+            <h3 class="column-header-text text-element">GRADE:</h3>
+        </div>
+    </main>
+	<footer>
+
+	</footer>
+</body>
+</html>
